@@ -41,6 +41,19 @@ La API está desarrollada en Java utilizando **JAX-WS** y se publica como un ser
       description TEXT,
       location VARCHAR(100)
   );
+    -- Inserción de más paquetes
+    INSERT INTO package VALUES
+    ('PE1234567891', 'Carlos García', 'Ana López', 'Quito', 'Cuenca', 1.2, '25x15x10', 'En tránsito', 'Quito - Ecuador', '2025-04-20'),
+    ('PE1234567892', 'Lucía Mendoza', 'Pedro Ruiz', 'Guayaquil', 'Ambato', 3.5, '40x30x20', 'Entregado', 'Ambato - Ecuador', '2025-04-18'),
+    ('PE1234567893', 'Marcos Pérez', 'Elena Díaz', 'Loja', 'Manta', 2.0, '35x25x15', 'En tránsito', 'Loja - Ecuador', '2025-04-22');
+
+    -- Inserción de eventos de tracking
+    INSERT INTO tracking_event (tracking_number, event_date, description, location) VALUES
+    ('PE1234567891', '2025-04-05', 'Paquete recibido en bodega de Quito', 'Quito'),
+    ('PE1234567891', '2025-04-07', 'Paquete en tránsito hacia Cuenca', 'Quito'),
+    ('PE1234567892', '2025-04-12', 'Paquete entregado a Ana López', 'Ambato'),
+    ('PE1234567893', '2025-04-06', 'Paquete recibido en bodega de Loja', 'Loja'),
+    ('PE1234567893', '2025-04-08', 'Paquete en tránsito hacia Manta', 'Loja');
 
     ```
     
