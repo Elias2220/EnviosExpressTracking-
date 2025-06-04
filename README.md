@@ -60,7 +60,7 @@ El proyecto usa Maven para gestionar dependencias. Asegúrate de tener Maven y J
 
 ### 4. Probar el servicio
 
-Usa **SoapUI** o **Postman** para probar el servicio SOAP utilizando el WSDL generado en `http://localhost:8080/ws/tracking?wsdl`.
+Usa **SoapUI** para probar el servicio SOAP utilizando el WSDL generado en `http://localhost:8080/ws/tracking?wsdl`.
 
 ---
 
