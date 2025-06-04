@@ -49,9 +49,6 @@ La API está desarrollada en Java utilizando **JAX-WS** y se publica como un ser
 
 El proyecto usa Maven para gestionar dependencias. Asegúrate de tener Maven y JDK instalados en tu entorno.
 
-- **Maven**: [Descargar Maven](https://maven.apache.org/download.cgi)
-- **JDK**: [Descargar JDK](https://adoptopenjdk.net/)
-
 ### 3. Ejecución en IntelliJ IDEA
 
 1. Abre el proyecto en IntelliJ IDEA.
